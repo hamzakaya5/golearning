@@ -64,7 +64,7 @@ func (z mytype) ascii() {
 
 func (z mytype) hello() {
 	for i := 0; i < 10; i++ {
-		fmt.Println("hello mtrfckr", z)
+		fmt.Println("hello", z)
 		z++
 		time.Sleep(time.Duration(5 * time.Millisecond))
 
