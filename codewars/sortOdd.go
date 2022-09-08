@@ -68,7 +68,7 @@ package main
 // 	breakPoint := 0
 // 	var arr [2]int
 // 	for i = 0; i < len(numbers); i++ {
-// 		fmt.Println("fuck you")
+// 		fmt.Println("inside for loop")
 // 		for j = 0; j < i; j++ {
 // 			if numbers[i]+numbers[j] == target {
 // 				arr[0] = j
