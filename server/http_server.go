@@ -37,7 +37,7 @@ func ServeAnother(w http.ResponseWriter, r *http.Request) {
 	if r.Method != "POST" {
 		log.Fatal(http.ErrNotSupported)
 	}
-	io.WriteString(w, "Anana post geldi")
+	io.WriteString(w, "Post request had been made")
 }
 
 func Actual() {
