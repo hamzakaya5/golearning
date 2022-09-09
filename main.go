@@ -35,8 +35,8 @@ func main() {
 	/*
 		mychan1 := make(chan int)
 		mychan2 := make(chan int)
-		go concurr.Channel1("naber moruq", mychan1)
-		go concurr.Channel1("naber moruqu", mychan2)
+		go concurr.Channel1("hello1", mychan1)
+		go concurr.Channel1("hello 2", mychan2)
 		evenorOdd, evenorOdd1 := <-mychan1, <-mychan2
 		print(evenorOdd + evenorOdd1)
 	*/
